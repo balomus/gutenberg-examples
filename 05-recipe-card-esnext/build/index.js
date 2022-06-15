@@ -187,7 +187,9 @@ const Save = props => {
     tagName: "ul",
     className: "ingredients",
     value: ingredients
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Instructions', 'gutenberg-examples')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Instructions', 'gutenberg-examples')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    style: "display: flex; justify-content: space-between;"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, "PREP TIME", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("br", null), "15 mins"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, "COOK TIME", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("br", null), "15 mins"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, "TOTAL TIME", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("br", null), "30 mins")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
     tagName: "div",
     className: "steps",
     value: instructions
