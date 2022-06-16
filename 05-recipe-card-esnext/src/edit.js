@@ -98,7 +98,7 @@ const Edit = ( props ) => {
 					) }
 				/>
 			</div>
-			<h3>{ __( 'Ingredients', 'gutenberg-examples' ) }</h3>
+			<h3 className="recipe-ingredients">{ __( 'Ingredients', 'gutenberg-examples' ) }</h3>
 			<RichText
 				tagName="ul"
 				multiline="li"
